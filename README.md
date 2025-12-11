@@ -1,5 +1,7 @@
 # 🎮 Shape Clicker Game 🎮
 
+🌐 **Live Demo**: [Play Now!](https://iam269.github.io/Shape-Clicker-Game/)
+
 Welcome to the **Shape Clicker Game**! This is a fun, simple clicker game built with HTML, CSS, and JavaScript. Test your reflexes by clicking on randomly appearing shapes before they disappear!
 
 ## 🎯 How to Play
