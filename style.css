@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#score {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #555;
+}
+
+#game-area {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#game-over {
+    font-size: 32px;
+    color: red;
+    margin: 20px 0;
+}
+
+.shape {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: red;
+}
+
+.square {
+    background-color: blue;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-bottom: 50px solid green;
+    background-color: transparent;
+}
